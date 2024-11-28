@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(rgb(99, 99, 99), rgb(15, 1, 68));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+  
+
+#header{
+    color: white;
+    text-shadow: 3px 3px 3px #180089;
+    font-size: 600%;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+
+/* Centering container */
+.container {
+    display: flex;
+    flex-direction: row; /* Arrange inputs vertically */
+    align-items: center;    /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 50vh;          /* Full viewport height */
+}
+
+/* Styling for inputs */
+.xyz {
+    margin: 10px;           /* Space between inputs */
+    padding: 10px;          /* Padding inside inputs */
+    width: 100px;           /* Set input width */
+    text-align: center;     /* Center text inside input */
+    font-size: 24px;
+}
+
+
+.containerR {
+    display: flex;
+    flex-direction: row; /* Arrange inputs vertically */
+    align-items: center;    /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 10vh;          /* Full viewport height */
+}
+
+/* Styling for inputs */
+.results {
+    margin: 10px;           /* Space between inputs */
+    padding: 70px;          /* Padding inside inputs */
+    width: 100px;           /* Set input width */
+    text-align: center;     /* Center text inside input */
+    font-size: 24px;
+    color: white;
+    font-size: 100px;
+
+}
